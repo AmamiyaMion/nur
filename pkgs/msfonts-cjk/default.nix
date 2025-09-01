@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   description = "Microsoft CJK Fonts that I use and Segoe UI Fonts extracted from Windows 11";
 
   src = fetchurl {
-    url = "https://raw.githubusercontents.com/panjk0518/nur/refs/heads/main/pkgs/msfonts-cjk/assets/msfonts-cjk.tar.zst";
+    url = "https://raw.githubusercontent.com/AmamiyaMion/nur/refs/heads/main/pkgs/msfonts-cjk/assets/msfonts-cjk.tar.zst";
     hash = "sha256-lGKIggBO01QdJ0cmseapGvktMFfngR8CxgltFewb1VE=";
   };
 
