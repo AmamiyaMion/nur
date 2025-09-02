@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   msfonts-cjk = pkgs.callPackage ./pkgs/msfonts-cjk { };
+  bash-pinyin-completion-rs = pkgs.callPackage ./pkgs/bash-pinyin-completion-rs { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
