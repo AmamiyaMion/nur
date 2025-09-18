@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   bash-pinyin-completion-rs = pkgs.callPackage ./pkgs/bash-pinyin-completion-rs { };
+  izucat = pkgs.callPackage ./pkgs/izucat { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
