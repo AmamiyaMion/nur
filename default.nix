@@ -19,6 +19,7 @@
   example-package = pkgs.callPackage ./pkgs/example-package { };
   izucat = pkgs.callPackage ./pkgs/izucat { };
   plangothic = pkgs.callPackage ./pkgs/plangothic { };
+  argononed = pkgs.callPackage ./pkgs/argononed { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
