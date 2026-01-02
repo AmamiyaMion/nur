@@ -7,7 +7,7 @@
 #     nix-build -A mypackage
 
 {
-  pkgs ? import <nixpkgs> { },
+  pkgs ? import <nixpkgs> { allowUnfree = true; },
 }:
 
 {
@@ -20,6 +20,7 @@
   izucat = pkgs.callPackage ./pkgs/izucat { };
   plangothic = pkgs.callPackage ./pkgs/plangothic { };
   argononed = pkgs.callPackage ./pkgs/argononed { };
+  cnijfilter2 = pkgs.callPackage ./pkgs/cnijfilter2 { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
