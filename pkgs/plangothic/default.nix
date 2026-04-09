@@ -6,7 +6,7 @@
 
 stdenvNoCC.mkDerivation rec {
   pname = "plangothic";
-  version = "2.9.5787";
+  version = "2.9.5792";
 
   src = fetchFromGitHub {
     owner = "Fitzgerald-Porthmouth-Koenigsegg";
