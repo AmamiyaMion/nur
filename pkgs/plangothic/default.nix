@@ -12,7 +12,7 @@ stdenvNoCC.mkDerivation rec {
     owner = "Fitzgerald-Porthmouth-Koenigsegg";
     repo = "Plangothic_Project";
     tag = "V${version}";
-    hash = "sha256-PIY0QkNbrQfgaMutcQSJHAfwjTv0j31D3QoYQKcwdXw=";
+    hash = "sha256-YOSdR/1OzWovuEFGtjrmb2SF3ftHWwY+C7Py7CL9h9E=";
     sparseCheckout = [
       "fonts/otf"
     ];
